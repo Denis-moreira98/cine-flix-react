@@ -2,6 +2,11 @@
    max-width: 800px;
    margin: 14px auto;
 }
+.loading {
+   display: flex;
+   justify-content: center;
+   margin-top: 14px;
+}
 
 .lista-filmes article {
    width: 100%;
@@ -32,7 +37,7 @@
    justify-content: center;
    padding: 10px 0;
    font-size: 24px;
-   background-color: #116feb;
+   background-color: #000000;
    text-decoration: none;
    color: #fff;
    border-bottom-left-radius: 8px;
