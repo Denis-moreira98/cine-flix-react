@@ -1,9 +1,9 @@
 ## Projeto Prime Flix
 
-### Projeto desenvolvido em React, tem a funcionalidade de mostrar os filmes que estão em cartaz nos cinemas. Mostrando Sinopse do filme e tendo a opção de salvar como favorito, e em seguida consultar essa lista em "meus filmes". Na aba de "meus filmes" você tem a opçao de excluir algum filme. Outra funcionalidade, é poder acessar o trailer do filme.
+ Projeto desenvolvido em React, tem a funcionalidade de mostrar os filmes que estão em cartaz nos cinemas. Mostrando Sinopse do filme e tendo a opção de salvar como favorito, e em seguida consultar essa lista em "meus filmes". Na aba de "meus filmes" você tem a opçao de excluir algum filme. Outra funcionalidade, é poder acessar o trailer do filme.
 
 
-## Confira o [deploy](https://prime-flix-react.vercel.app/).
+### Confira o [deploy](https://prime-flix-react.vercel.app/).
 
 
 ![Captura de Tela (125)](https://github.com/Denis-moreira98/prime-flix-react/assets/72985107/a021c196-ca22-471f-b49f-638115fd2e63)
