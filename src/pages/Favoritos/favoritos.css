@@ -7,10 +7,12 @@
 
 .meus-filmes h1 {
    margin-bottom: 14px;
+   color: #fff;
 }
 
 .meus-filmes span {
    font-size: 18px;
+   color: #fff;
 }
 
 .meus-filmes ul {
@@ -34,4 +36,14 @@
    text-decoration: none;
    color: #116feb;
    margin-right: 14px;
+}
+
+.button-delete {
+   padding: 8px;
+   border-radius: 8px;
+   font-size: 12px;
+   font-weight: bold;
+   background-color: #f1e149;
+   cursor: pointer;
+   border: none;
 }
