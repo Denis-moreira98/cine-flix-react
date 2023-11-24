@@ -3,54 +3,70 @@
    margin-top: 18px;
    display: flex;
    flex-direction: column;
-   max-width: 800px;
-   padding: 0 8px;
+   max-width: 1200px;
+   padding: 10px;
 }
 
 .filme-info h1 {
    margin: 14px 0;
+   color: #fff;
+   text-align: center;
 }
 
 .filme-info img {
    border-radius: 8px;
-   width: 800px;
+   width: 1200px;
    max-width: 100%;
    max-height: 340px;
    object-fit: cover;
+   margin-bottom: 10px;
 }
 
 .filme-info h3 {
-   margin-top: 14px;
+   margin-top: 18px;
+   color: #fff;
+   font-size: 24px;
 }
 
 .filme-info span {
    margin: 8px 0;
+   color: #fff;
+   font-size: 18px;
+}
+.filme-info strong {
+   margin: 8px 0;
+   color: #fff;
+   font-size: 20px;
+}
+.area-buttons {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 4px;
+   width: 100%;
 }
 
 .area-buttons button {
    margin-right: 12px;
    margin-top: 14px;
    margin-left: 0;
-   font-size: 28px;
+   font-size: 22px;
    border: 0;
    outline: none;
    padding: 12px;
-   border-radius: 6px;
+   border-radius: 8px;
    cursor: pointer;
    transition: all 0.5s;
+   background-color: #f1e149;
 }
 
 .area-buttons button:hover {
-   background-color: #000000;
-   color: white;
+   background-color: #fff;
+   color: #000;
 }
 
 .area-buttons a {
    text-decoration: none;
    color: #000000;
    transition: all 0.5s;
-}
-
-.area-buttons a:hover {
-   color: white;
 }

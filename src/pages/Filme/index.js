@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
+import { FaStar } from "react-icons/fa";
 
 import "./filme-info.css";
 
@@ -70,8 +71,10 @@ function Filme() {
          />
          <h3>Sinopse</h3>
          <span>{filme.overview}</span>
-         <strong>Avaliação: {filme.vote_average} /10</strong>
-
+         <strong>
+            Avaliação: {filme.vote_average.toFixed(1)} {"  "}
+            <FaStar size={20} color="#f1e149" />
+         </strong>
          <div className="area-buttons">
             <button onClick={salvarFilme}>Salvar</button>
             <button>
