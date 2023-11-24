@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import api from "../../services/api";
 import { Link } from "react-router-dom";
 import "./home.css";
+import { FaStar } from "react-icons/fa";
 
 // https://api.themoviedb.org/3/movie/now_playing?api_key=54b976055abc872f37796ede8b6772b4&language=pt-BR
 
@@ -19,7 +20,7 @@ function Home() {
             },
          });
          //console.log(response.data.results.slice(0, 10));
-         setFilmes(response.data.results.slice(0, 10));
+         setFilmes(response.data.results.slice(0, 15));
          setLoading(false);
       }
 
@@ -36,17 +37,25 @@ function Home() {
 
    return (
       <div className="container">
+         <h1>Confira os últimos lançamentos do cinema</h1>
          <div className="lista-filmes">
             {filmes.map((filme) => {
                return (
-                  <article key={filme.id}>
-                     <strong>{filme.title}</strong>
-                     <img
-                        src={`https://image.tmdb.org/t/p/original/${filme.poster_path}`}
-                        alt={filme.title}
-                     />
-                     <Link to={`/filme/${filme.id}`}>Acessar</Link>
-                  </article>
+                  <div className="filmes-container" key={filme.id}>
+                     <article>
+                        <img
+                           src={`https://image.tmdb.org/t/p/original/${filme.poster_path}`}
+                           alt={filme.title}
+                        />
+                        <strong>{filme.title}</strong>
+
+                        <strong>
+                           {filme.vote_average.toFixed(1)} {"  "}
+                           <FaStar size={20} color="#f1e149" />
+                        </strong>
+                        <Link to={`/filme/${filme.id}`}>Acessar</Link>
+                     </article>
+                  </div>
                );
             })}
          </div>
