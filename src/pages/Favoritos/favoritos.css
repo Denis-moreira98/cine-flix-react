@@ -1,4 +1,7 @@
 .meus-filmes {
+   width: 100%;
+   max-width: 1200px;
+   margin: auto;
    margin-top: 24px;
    display: flex;
    flex-direction: column;
@@ -16,7 +19,10 @@
 }
 
 .meus-filmes ul {
-   width: 720px;
+   width: 100%;
+   max-width: 1200px;
+   margin: auto;
+   padding: 15px;
 }
 .meus-filmes ul li {
    list-style: none;

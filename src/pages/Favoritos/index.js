@@ -26,7 +26,7 @@ function Favoritos() {
          <h1>Meus filmes</h1>
 
          {filmes.length === 0 && (
-            <span>Você não possui nenhum filme salvo :( </span>
+            <span>Você não possui nenhum filme salvo ☹️ </span>
          )}
 
          <ul>
