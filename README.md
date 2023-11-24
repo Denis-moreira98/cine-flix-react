@@ -5,6 +5,21 @@
 
 ### Confira o [deploy](https://prime-flix-react.vercel.app/).
 
+## Para Rodar localmente na sua máquina:
+
+Instale as dependências
+
+```bash
+  npm install
+```
+
+Inicie o servidor da Aplicação
+
+```bash
+  npm run start
+```
+
+
 
 ![Captura de Tela (125)](https://github.com/Denis-moreira98/prime-flix-react/assets/72985107/a021c196-ca22-471f-b49f-638115fd2e63)
 ![Captura de Tela (129)](https://github.com/Denis-moreira98/prime-flix-react/assets/72985107/7f105093-64a4-4975-b701-d31ee7249c87)
