@@ -39,9 +39,20 @@
 }
 
 .meus-filmes div a {
+   padding: 8px;
+   border-radius: 8px;
+   font-size: 12px;
+   font-weight: bold;
+   background-color: #f1e149;
+   cursor: pointer;
+   border: none;
+   margin-right: 10px;
    text-decoration: none;
-   color: #116feb;
-   margin-right: 14px;
+   color: #000;
+   transition: all 0.5s;
+}
+.meus-filmes div a:hover {
+   transform: scale(1.1);
 }
 
 .button-delete {
@@ -52,4 +63,25 @@
    background-color: #f1e149;
    cursor: pointer;
    border: none;
+   transition: all 0.5s;
+}
+.button-delete:hover {
+   transform: scale(1.1);
+}
+.div_poster {
+   display: flex;
+   flex-direction: row;
+   gap: 1rem;
+   align-items: center;
+   margin-bottom: 0.5rem;
+}
+.div_poster img {
+   object-fit: cover;
+   height: 150px;
+   width: 120px;
+   border-radius: 4px;
+}
+
+.div_poster span {
+   font-weight: bold;
 }

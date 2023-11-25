@@ -50,10 +50,12 @@ function Home() {
                         <strong>{filme.title}</strong>
 
                         <strong>
+                           <FaStar size={20} color="#f1e149" /> {"  "}
                            {filme.vote_average.toFixed(1)} {"  "}
-                           <FaStar size={20} color="#f1e149" />
                         </strong>
-                        <Link to={`/filme/${filme.id}`}>Acessar</Link>
+                        <Link className="button-link" to={`/filme/${filme.id}`}>
+                           Acessar
+                        </Link>
                      </article>
                   </div>
                );

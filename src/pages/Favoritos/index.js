@@ -33,9 +33,16 @@ function Favoritos() {
             {filmes.map((item) => {
                return (
                   <li key={item.id}>
-                     <span>{item.title}</span>
+                     <div className="div_poster">
+                        <img
+                           src={`https://image.tmdb.org/t/p/original/${item.poster_path}`}
+                           alt="poster"
+                        />
+                        <span>{item.title}</span>
+                     </div>
+
                      <div>
-                        <Link to={`/filme/${item.id}`}>Ver detalhes</Link>
+                        <Link to={`/filme/${item.id}`}>Detalhes</Link>
                         <button
                            className="button-delete"
                            onClick={() => excluirFilme(item.id)}

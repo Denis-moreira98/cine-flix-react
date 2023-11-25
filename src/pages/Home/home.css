@@ -64,4 +64,9 @@
    color: #000;
    font-weight: bold;
    border-radius: 8px;
+   transition: all 0.8s;
+}
+
+.lista-filmes a:hover {
+   transform: scale(1.1);
 }

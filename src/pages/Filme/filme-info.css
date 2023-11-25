@@ -56,13 +56,13 @@
    padding: 12px;
    border-radius: 8px;
    cursor: pointer;
-   transition: all 0.5s;
+   transition: 0.8s;
    background-color: #f1e149;
+   font-weight: bold;
 }
 
 .area-buttons button:hover {
-   background-color: #fff;
-   color: #000;
+   transform: scale(1.1);
 }
 
 .area-buttons a {
