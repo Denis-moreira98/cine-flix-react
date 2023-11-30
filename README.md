@@ -1,4 +1,4 @@
-## Projeto CineFlix
+## Projeto CineFlix 🎞️🎥
 
 Resumo:
 Este aplicativo consome uma API externa de filmes, oferecendo funcionalidades envolventes, desde exibir os filmes em cartaz até proporcionar uma experiência personalizada de "Meus Filmes".
