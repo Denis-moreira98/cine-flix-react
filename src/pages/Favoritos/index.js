@@ -41,7 +41,7 @@ function Favoritos() {
                         <span>{item.title}</span>
                      </div>
 
-                     <div>
+                     <div className="div_links">
                         <Link to={`/filme/${item.id}`}>Detalhes</Link>
                         <button
                            className="button-delete"

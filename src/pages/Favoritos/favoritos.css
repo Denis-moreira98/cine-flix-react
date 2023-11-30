@@ -57,6 +57,7 @@
 
 .button-delete {
    padding: 8px;
+   width: 66.3px;
    border-radius: 8px;
    font-size: 12px;
    font-weight: bold;
@@ -71,17 +72,30 @@
 .div_poster {
    display: flex;
    flex-direction: row;
-   gap: 1rem;
+   gap: 0.8rem;
    align-items: center;
    margin-bottom: 0.5rem;
 }
 .div_poster img {
    object-fit: cover;
    height: 150px;
-   width: 120px;
+   width: 100px;
    border-radius: 4px;
 }
 
 .div_poster span {
    font-weight: bold;
+}
+
+@media screen and (max-width: 450px) {
+   .div_links {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+      justify-content: center;
+   }
+   .meus-filmes div a {
+      margin-right: 0;
+   }
 }
