@@ -16,3 +16,16 @@ body {
    align-items: center;
    flex-direction: column;
 }
+
+::-webkit-scrollbar {
+   width: 10px;
+}
+
+::-webkit-scrollbar-track {
+   background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+   background: #f1e149;
+   border-radius: 15px;
+}
